@@ -1,0 +1,19 @@
+.button {
+    display: inline-block;
+    color: white;
+    background-color: #4277FF;
+    box-shadow: 5px 5px 0px #000000;
+    padding: 18px 20px;
+    margin-right: 0px;
+    transition: transform 400ms ease-in-out;
+}
+
+.button::before {
+    visibility: hidden;
+}
+
+.button:hover {
+    background-color: #95a0bd;
+    color: rgb(240, 235, 235);
+    transform: scale(1.1)
+}
