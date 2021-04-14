@@ -49,16 +49,5 @@ nav a::before {
 
 #presentation {
     height: 797px;
-}
-
-#presentation_box {
-    background-color: #3A4042;
-    width: 627px;
-    height: 184px;
-    text-align: center;
-    box-shadow: 10px 10px #000;
-}
-
-#presentation {
-    background-image: linear-gradient(#4277FF, #3A4042)
+    background-image: linear-gradient(#4277FF, #3A4042);
 }
