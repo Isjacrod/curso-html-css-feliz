@@ -6,14 +6,12 @@
     padding: 18px 20px;
     margin-right: 0px;
     transition: transform 400ms ease-in-out;
-}
-
-.button::before {
-    visibility: hidden;
+    text-decoration: none;
 }
 
 .button:hover {
     background-color: #95a0bd;
     color: rgb(240, 235, 235);
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
