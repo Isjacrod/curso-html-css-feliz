@@ -1,7 +1,11 @@
 #presentation-box {
+    display: inline-block;
     background-color: #3A4042;
-    width: 627px;
-    height: 184px;
+    padding: 45px;
     text-align: center;
     box-shadow: 10px 10px #000;
+}
+
+#presentation-box h1 {
+    margin-bottom: 25px;
 }
