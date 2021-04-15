@@ -1,0 +1,9 @@
+.banner {
+    height: 797px;
+   /* background-image: linear-gradient(#4277FF, #3A4042);
+    */
+    border-bottom: 10px solid #000;
+    background-image: url(../../assets/images/Background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
