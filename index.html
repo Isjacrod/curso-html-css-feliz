@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"f>
+<html lang="pt-BR">
 <head>
     <meta charset="utf-8">
     <title> Isjacrod Home Page</title>
@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/action.css">
-    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/banner-section.css">
     <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/title.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/bottom-separator.css">
-    <link rel="stylesheet" href="css/components/skills.css">
+    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/skill-item.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
 </head>
 <body>
@@ -31,10 +32,10 @@
             <button class="button"> Download CV </button>
         </nav>       
     </header>
-    <section class="banner bottom-sep">
+    <section class="banner-section bottom-sep">
         <div class="wrapper">
             <div class="box">
-                <h1 class="title"> Isjacrod </h1>
+                <h1 class="main-title"> Isjacrod </h1>
                 <h2 class="subtitle"> FrontEnd Developer </h2>
             </div>
             <div class="navigation">
@@ -44,24 +45,20 @@
         </div>
     </section>
     <section class="section bottom-sep">
-        <h1 class="title _second">Skills</h1>
+        <h2 class="main-title -second">Skills</h2>
+
         <div class="skills-list-wrapper">
-            <dl class="skill-item">
-                <dt class="skill-name">
-                    Texto
-                </dt>
-                <dd>
-                    <img src="./assets/images/avatar.jpg" alt="">
-                </dd>
-                <dd>
-                    <div class="progress-bar"></div>
-                </dd>
-                
-            </dl>
+            <article class="skill-item">
+                <img class="icon" src="./assets/images/avatar.jpg" alt="">
+                <div class="right">
+                    <h3 class="title">Texto</h3>
+                    <progress max="100" value="70" class="progress-bar">70%</progress>
+                </div>
+            </article>
             <div class="skill-item">
                 <img src="./assets/images/avatar.jpg" alt="">
                 <span class="skill-name">Texto</span>
-                <div class="progress-bar"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemax="100" aria-valuemin="0"></div>
             </div>
             <div class="skill-item">
                 <img src="./assets/images/avatar.jpg" alt="">

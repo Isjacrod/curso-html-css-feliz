@@ -1,11 +1,3 @@
-.section {
-    height: 740px;
-    background-color: #4277FF;
-    border-color: #AA01FA;
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
 .skills-list-wrapper {
     display: flex;
     flex-flow: row wrap;
@@ -16,21 +8,25 @@
 
 .skill-item {
     display: flex;
-    flex-flow: column wrap;
     width: 430px;
     height: 90px;
     margin-bottom: 38px;
-    align-content: space-between;
-    justify-content: space-between;
     border: 1px solid;
 }
 
-.skill-item img {
-    width: 80px;
-    height: 90px;
+.skill-item .right {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
-.skill-name {
+.skill-item .icon {
+    width: 80px;
+    height: 90px;
+    margin-right: 25px;
+}
+
+.title {
     color: #fff;
     font-size: 25px;
 }
