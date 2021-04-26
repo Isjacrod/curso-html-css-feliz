@@ -1,17 +1,11 @@
-.skills-list-wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    width: 960px;
-    margin: 62px auto;
-    justify-content: space-between;
-} 
-
 .skill-item {
     display: flex;
     width: 430px;
     height: 90px;
     margin-bottom: 38px;
     border: 1px solid;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .skill-item .right {
@@ -20,13 +14,7 @@
     justify-content: space-between;
 }
 
-.skill-item .icon {
-    width: 80px;
-    height: 90px;
-    margin-right: 25px;
-}
-
-.title {
+.skill-item .title {
     color: #fff;
     font-size: 25px;
 }
