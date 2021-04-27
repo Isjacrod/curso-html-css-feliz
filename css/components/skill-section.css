@@ -1,15 +1,13 @@
 .skill-section {
     height: 740px;
     background-color: #4277FF;
-    border-color: #AA01FA;
     padding-top: 50px;
-    padding-bottom: 100px;
 }
 
 .skill-section .wrapper {
     display: flex;
     flex-flow: row wrap;
-    width: 960px;
+    max-width: 960px;
     margin: 62px auto;
     justify-content: space-between;
 } 

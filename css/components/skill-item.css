@@ -3,7 +3,6 @@
     width: 430px;
     height: 90px;
     margin-bottom: 38px;
-    border: 1px solid;
     justify-content: space-between;
     align-items: center;
 }
@@ -17,4 +16,5 @@
 .skill-item .title {
     color: #fff;
     font-size: 25px;
+    margin-bottom: 15px;
 }
