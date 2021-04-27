@@ -1,3 +1,11 @@
 .bottom-sep {
     border-bottom: 10px solid #000;
 }
+
+.bottom-sep.-purple {
+    border-color: #AA01FA;
+}
+
+.bottom-sep.-blue {
+    border-color: #4277FF;
+}
