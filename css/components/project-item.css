@@ -1,0 +1,30 @@
+.project-item {
+    display: flex;
+    width: 280px;
+    height: 280px;
+    background-color: #fff;
+    box-shadow: 10px 10px 0 0 #fff;
+}
+
+.project-item .icon {
+    max-width: 280px;
+    max-height: 280px;
+    margin: auto;
+}
+
+.project-item > .icon.-roundimage {
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+
+.project-item.-variation1 {
+    background-color: #AA01FA
+}
+
+.project-item.-variation2 {
+    background-color: #4C5B84;
+}
+
+.project-item.-variation3 {
+    background-color: #f25a6f;
+}

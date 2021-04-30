@@ -1,5 +1,14 @@
 .projects-section {
-    height: 500px;
+    height: 520px;
     background-color: #000;
     padding-top: 50px;
+}
+
+.projects-section .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
 }
