@@ -8,6 +8,10 @@
     font-weight: 500;
 }
 
+.action:visited {
+    color: white;
+}
+
 .action::before {
     content: '';
     background-color: #62C370;

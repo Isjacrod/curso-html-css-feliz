@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components/letter-logo.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/action.css">
     <link rel="stylesheet" href="css/components/banner-section.css">
@@ -16,16 +17,18 @@
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/bottom-separator.css">
     <link rel="stylesheet" href="css/components/skill-section.css">
+    <link rel="stylesheet" href="css/components/skill-wrapper.css">
     <link rel="stylesheet" href="css/components/skill-item.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/projects-section.css">
+    <link rel="stylesheet" href="css/components/projects-wrapper.css">
     <link rel="stylesheet" href="css/components/project-item.css">
 </head>
 <body>
     <header class="header bottom-sep">
-        <div id="avatar">
-            <img src="assets/images/avatar.jpg" alt="Foto do Perfil">
-        </div>
+        <a href="https://github.com/Isjacrod">
+            <img class="logo" src="assets/images/avatar.jpg" alt="Foto do Perfil">
+        </a>
         <nav>
             <a class="action" href="#"> Skills </a>
             <a class="action" href="#"> Projetos </a>
@@ -49,40 +52,40 @@
     <section class="skill-section bottom-sep -purple">
         <h2 class="main-title -second">Skills</h2>
 
-        <div class="wrapper">
+        <div class="skill-wrapper">
             <article class="skill-item">
                 <img class="icon" src="./assets/images/ico_html5.png" alt="Icone html">
                 <div class="right">
                     <h3 class="title">HTML</h3>
-                    <progress max="100" value="70" class="progress-bar">70%</progress>
+                    <progress max="100" value="30" class="progress-bar">30%</progress>
                 </div>
             </article>
             <article class="skill-item">
                 <img class="icon" src="./assets/images/ico_css3.png" alt="Icone css">
                 <div class="right">
                     <h3 class="title">CSS</h3>
-                    <progress max="100" value="40" class="progress-bar">40%</progress>
+                    <progress max="100" value="20" class="progress-bar">20%</progress>
                 </div>
             </article>
             <article class="skill-item">
                 <img class="icon" src="./assets/images/ico_js.png" alt="Icone java script">
                 <div class="right">
                     <h3 class="title">Java Script</h3>
-                    <progress max="100" value="50" class="progress-bar">50%</progress>
+                    <progress max="100" value="15" class="progress-bar">15%</progress>
                 </div>
             </article>
             <article class="skill-item">
                 <img class="icon" src="./assets/images/ico_nodejs.png" alt="Icone node js">
                 <div class="right">
                     <h3 class="title">NodeJS</h3>
-                    <progress max="100" value="5" class="progress-bar">5%</progress>
+                    <progress max="100" value="2" class="progress-bar">2%</progress>
                 </div>
             </article>
             <article class="skill-item">
                 <img class="icon" src="./assets/images/ico_react.png" alt="Icone react">
                 <div class="right">
                     <h3 class="title">React</h3>
-                    <progress max="100" value="3" class="progress-bar">3%</progress>
+                    <progress max="100" value="1" class="progress-bar">1%</progress>
                 </div>
             </article>
             <article class="skill-item">
@@ -103,7 +106,7 @@
                 <img class="icon" src="./assets/images/ico_ux.png" alt="Icone ux">
                 <div class="right">
                     <h3 class="title">UX</h3>
-                    <progress max="100" value="60" class="progress-bar">60%</progress>
+                    <progress max="100" value="23" class="progress-bar">23%</progress>
                 </div>
             </article>
 
@@ -112,15 +115,27 @@
     </section>
     <section class="projects-section bottom-sep -blue">
         <h1 class="main-title -second">Projetos</h1>
-        <div class="wrapper">
-            <figure class="project-item -variation1">
+        <div class="projects-wrapper">
+            <a class="project-item -variation1" href="" target="_blank">
                 <img class="icon" src="assets/images/logo-firedlabs.svg" alt="Logo da Fired Labs">
-            </figure>
-            <figure class="project-item -variation2">
-                <img class="icon" src="assets/images/logo-collabcode.png" alt="Logo da Colab Code"></figure>
-            <figure class="project-item -variation3">
+            </a>
+            <a class="project-item -variation2" href="" target="_blank">
+                    <img class="icon" src="assets/images/logo-collabcode.png" alt="Logo da Colab Code">
+
+            </a>
+            <a class="project-item -variation3" href="https://github.com/Isjacrod" target="_blank">
                 <img class="icon -roundimage" src="assets/images/avatar.jpg" alt="Lobo meu portifolio">
-            </figure>
+            </a>
+            <a class="project-item" href="" target="_blank">
+                <div class="letter-logo -trbg">
+                    <span class="letter"> is </span>
+                </div>
+            </a>
+            <a class="project-item -variation1" href="https://isjacrod.github.io/ImersaoDev/index.html" target="_blank">
+                <div class="letter-logo">
+                    <span class="letter"> cc </span>
+                </div>
+            </a>
         </div>
     </section>
 </body>
