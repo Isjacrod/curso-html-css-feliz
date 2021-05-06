@@ -1,0 +1,8 @@
+.skill-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+} 
