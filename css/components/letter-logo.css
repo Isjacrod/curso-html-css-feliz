@@ -1,31 +1,39 @@
 .letter-logo {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     display: flex;
-    background-color: rgb(133, 62, 139);
+    background-color: #4277ff;
     justify-content: center;
     align-items: center;
 }
 
 .letter-logo > .letter {
     font-family: fantasy, 'Arial';
-    font-size: 100px;
-    text-shadow: 3px 3px 1px rgb(146, 140, 140);
-    text-transform: uppercase;
-    color: teal;
+    font-size: 50px;
+    text-align: center;
+    overflow-wrap: anywhere;
+    text-shadow: 3px 3px 1px #fff;
+    color: #000;
 }
 
 /*component letter-logo variations*/ 
-.letter-logo.-trbg {
+.letter-logo.-transparent {
     background-color: transparent;
 }
 
-/*elemnt letter variations*/
-.letter.-tomato {
-    color: tomato;
-    text-shadow: 3px 3px 1px yellow;
+/*element letter variations*/
+.letter.-noshadow {
+    text-shadow: none;
 }
-.letter.-lime {
-    color: lime;
-    text-shadow: 3px 3px 1px red;
+.letter.-violet {
+    color: violet;
+}
+.letter.-blue {
+    color: blue;
+}
+.letter.-greenyellow {
+    color: greenyellow;
+}
+.letter.-hotpink {
+    color: hotpink;
 }

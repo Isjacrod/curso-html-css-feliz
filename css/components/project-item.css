@@ -4,24 +4,27 @@
     height: 200px;
     padding: 1%;
     margin-bottom: 3rem;
-    background-color: #fff;
+    background-color: #aa01fa;
     box-shadow: 10px 10px 0 0 #95a0bd;
     align-items: center;
     justify-content: center;
 }
 
-.project-item.-variation1 {
-    background-color: #AA01FA
+/*Project-item background variations*/
+.project-item.-blueviolet {
+    background-color: blueviolet;
+}
+.project-item.-violet {
+    background-color: violet;
+}
+.project-item.-white {
+    background-color: #fff;
+}
+.project-item.-deepskyblue {
+    background-color: deepskyblue;
 }
 
-.project-item.-variation2 {
-    background-color: #4C5B84;
-}
-
-.project-item.-variation3 {
-    background-color: #f25a6f;
-}
-
+/*fix image inside a project-item*/
 .project-item .icon {
     max-width: 100%;
     max-height: 100%;
