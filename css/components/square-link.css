@@ -1,20 +1,18 @@
 
-.action {
-    display: inline-flex;
-    align-items: center;
-    margin-right: 30px;
+.square-link {
     color: white;
     text-decoration: none;
     font-weight: 500;
 }
 
-.action:visited {
+.square-link:visited {
     color: white;
 }
 
-.action::before {
+.square-link::before {
     content: '';
     background-color: #62C370;
+    display: inline-block;
     width: 10px;
     height: 10px;
     margin-right: 10px;

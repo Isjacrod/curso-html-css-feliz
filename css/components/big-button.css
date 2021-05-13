@@ -1,4 +1,4 @@
-.button {
+.big-button {
     display: inline-block;
     width: 170px;
     color: white;
@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 
-.button:hover {
+.big-button:hover {
     background-color: #95a0bd;
     color: rgb(240, 235, 235);
     transform: scale(1.1);

@@ -11,14 +11,14 @@
 }
 
 /*Project-item background variations*/
+.project-item.-variation1 {
+    background-color: #f25a70;
+}
 .project-item.-blueviolet {
     background-color: blueviolet;
 }
 .project-item.-violet {
     background-color: violet;
-}
-.project-item.-white {
-    background-color: #fff;
 }
 .project-item.-deepskyblue {
     background-color: deepskyblue;
