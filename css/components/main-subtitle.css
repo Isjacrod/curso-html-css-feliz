@@ -2,8 +2,11 @@
 .main-subtitle {
     font-size: 30px;
     color: #fff;
-    text-shadow: 4px 4px #000;
     text-align: center;
     font-weight: 400;
+}
+
+.main-subtitle.-shadowned {
+    text-shadow: 4px 4px #000;
 }
 
