@@ -1,0 +1,18 @@
+.default-section {
+    padding: 50px 0px;
+    border-bottom: 10px solid #000;
+}
+
+.default-section.-projectvariation {
+    background-color: #000;
+    border-color: #4277FF;
+}
+
+.default-section.-skillvariation {
+    background-color: #4277FF;
+    border-color: #AA01FA;
+}
+
+.default-section.-aboutvariation {
+    background-color: #AA01FA;
+}
