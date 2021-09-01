@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/components/projects-wrapper.css">
     <link rel="stylesheet" href="css/components/project-item.css">
     <link rel="stylesheet" href="css/components/history-carrousel.css">
-    <link rel="stylesheet" href="css/components/stylized-timeline.css">
+    <link rel="stylesheet" href="css/components/stylized-divisor.css">
     <link rel="stylesheet" href="css/components/history-nav.css">
     <link rel="stylesheet" href="css/components/arrow-button.css">
     <link rel="stylesheet" href="css/components/history-item.css">
@@ -152,21 +152,37 @@
     <section class="default-section -aboutvariation">
         <h2 class="main-title"> Sobre </h2>
         <article class="history-carrousel">
-            <div class="stylized-timeline">
-                <hr class="dashedtimeline">
-                <hr class="maintimeline">
-                <hr class="dashedtimeline">
+            <div class="stylized-divisor">
+                <hr class="centerdash">
             </div>
             <nav class="history-nav">
-                <button class="arrow-button"> &lt </button>
-                <ul class="historywrapper"></ul>
-                    <li class="history-item">
-                        <span class="year">2000</span>
-                        <hr class="verticaldots">
-                        <img class="jobimage" src="assets/images/avatar.jpg">
-                    </li>
-                </ul>
-                <button class="arrow-button"> &gt </button>
+                <button class="arrow-button -left"> </button>
+                <div class="hiddenwrapper">
+                    <ol class="historywrapper">
+                        <li class="history-item">
+                            <span class="year">2021-03</span>
+                            <span class="verticaldots"></span>
+                            <div class="jobimage -variation1">
+                                <img class="image" src="assets/images/imersao1.jpg" alt="imagem da imersão dev">
+                            </div>
+                        </li>
+                        <li class="history-item">
+                            <span class="year">2021-05</span>
+                            <span class="verticaldots"></span>
+                            <div class="jobimage -variation2">
+                                <img class="image" src="assets/images/html_css_feliz.png" alt="imagem do curso html e css feliz">
+                            </div>
+                        </li>
+                        <li class="history-item">
+                            <span class="year">2021-06</span>
+                            <span class="verticaldots"></span>
+                            <div class="jobimage -variation3">
+                                <img class="image" src="assets/images/cs50.jpeg" alt="imagem do curso cs50 de harvard">
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <button class="arrow-button -right"> </button>
             </nav>
         </article>
         <p class="text-box"> 

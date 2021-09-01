@@ -1,0 +1,22 @@
+.stylized-divisor {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.stylized-divisor::before, .stylized-divisor::after {
+    content: '';
+    display: block;
+    border-top: 4.5px dotted #000;
+    flex-basis: 3%;
+}
+
+.stylized-divisor > .centerdash {
+    display: inline-block;
+    margin: 5px;
+    flex-basis: 94%;
+    height: 6px;
+    background-color: #000;
+    border: none;
+}

@@ -3,3 +3,16 @@
     align-items: center;
     margin: auto auto 50px;
 }
+
+.history-nav .historywrapper {
+    display: flex;
+    transform: translateX(0px);
+}
+
+.history-nav > .arrow-button {
+    transform: translateY(60%);
+}
+
+.history-nav > .hiddenwrapper {
+    overflow: hidden;
+}

@@ -1,4 +1,11 @@
 .history-carrousel {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
+.history-carrousel > .stylized-divisor {
+    position: absolute;
+    top: 25px;
 }
 

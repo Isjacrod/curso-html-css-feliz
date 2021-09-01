@@ -2,5 +2,15 @@
     background-color: #62C370;
     width: 50px;
     height: 50px;
+    margin: 15px;
     color: #fff;
+    box-shadow: 5px 5px 0px #000;
+}
+
+.arrow-button.-left::after {
+    content: '<'
+}
+
+.arrow-button.-right::after {
+    content: '>'
 }
