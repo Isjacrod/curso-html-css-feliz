@@ -12,6 +12,10 @@
 .big-button:hover {
     background-color: #95a0bd;
     color: rgb(240, 235, 235);
-    transform: scale(1.1);
+    transform: scale(1.05);
     cursor: pointer;
+}
+
+.big-button.-giantvariation {
+    width: 100%;
 }
