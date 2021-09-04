@@ -1,0 +1,12 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto 40px;
+}
+
+.contact-form .label {
+    margin-top: 20px;
+    font-family: 'Fira Code';
+    font-size: 1.5em;
+    color: #fff;
+}
