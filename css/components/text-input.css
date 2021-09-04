@@ -1,0 +1,10 @@
+.text-input {
+    background-color: #fff;
+    border: 5px solid #000;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.text-input.-textareavariation {
+    height: 318px;
+}
