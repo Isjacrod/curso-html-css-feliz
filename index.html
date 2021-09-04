@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="css/components/arrow-button.css">
     <link rel="stylesheet" href="css/components/history-item.css">
     <link rel="stylesheet" href="css/components/text-box.css">
+    <link rel="stylesheet" href="css/components/contact-form.css">
+    <link rel="stylesheet" href="css/components/text-input.css">
 </head>
 <body>
     <header class="main-header bottom-sep">
@@ -190,6 +192,18 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta minima omnis excepturi corporis saepe culpa quibusdam quos at dolorum delectus blanditiis odio, sapiente quod quasi? Nesciunt ducimus amet dolorum officiis?
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur alias eveniet maxime! Rerum harum rem pariatur quo a asperiores, cupiditate ex quasi delectus, vel non, beatae consequatur illo facere cumque.
         </p>
+    </section>
+    <section class="default-section -contactvariation">
+        <h2 class="main-title">Contato</h2>
+        <form class="contact-form" name="contato">
+            <label class="label" for="contact_name">Nome</label>
+            <input class="text-input" type="text" name="nome" id="contact_name">
+            <label class="label" for="contact_email">E-mail</label>
+            <input class="text-input" name="email" id="contact_email" type="email">
+            <label class="label" for="contact_message">Mensagem</label>
+            <textarea class="text-input -textareavariation" name="mensagem" id="contact_message" type=""></textarea>
+            <input class="big-button -giantvariation label" type="submit" id="contact_send" value="Enviar">
+        </form>
     </section>
     <script src="js/components/history-carrousel-movement.js"></script>
 </body>
