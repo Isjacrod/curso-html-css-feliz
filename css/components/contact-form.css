@@ -10,3 +10,10 @@
     font-size: 1.5em;
     color: #fff;
 }
+
+.ERROR_MESSAGE {
+    color: #f00;
+    font-size: small;
+    margin: 0;
+    text-shadow: 0.1em 0.1em #000;
+}
